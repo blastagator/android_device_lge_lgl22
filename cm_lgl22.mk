@@ -12,7 +12,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/lgl22/lgl22.mk)
+$(call inherit-product, device/lge/lgl22/full_lgl22.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lgl22
