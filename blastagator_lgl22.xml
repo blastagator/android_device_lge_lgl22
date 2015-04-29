@@ -3,6 +3,6 @@
 
   <remote name="blastagator" fetch="https://github.com/blastagator/" />
 
-  <project name="kbc_device_lge_lgl22" path="device/lge/lgl22" remote="blastagator" revision="cm-11.0"/>
+  <project name="cm_device_lge_lgl22" path="device/lge/lgl22" remote="blastagator" revision="cm-11.0"/>
 
 </manifest>
