@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common CM stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
@@ -13,7 +13,7 @@ $(call inherit-product, device/lge/lgl22/lgl22.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lgl22
-PRODUCT_NAME := cm_lgl22
+PRODUCT_NAME := lineage_lgl22
 PRODUCT_BRAND := KDDI
 PRODUCT_MODEL := LGL22
 PRODUCT_MANUFACTURER := lge
