@@ -21,11 +21,11 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # RIL 
-COMMON_GLOBAL_CFLAGS += -DNEEDS_LGE_RIL_SYMBOLS
+#COMMON_GLOBAL_CFLAGS += -DNEEDS_LGE_RIL_SYMBOLS
 
 # Felica
-COMMON_GLOBAL_CFLAGS += -DLGEJPN_UIDS
-COMMON_GLOBAL_CFLAGS += -DLGEJPN_JB_SYMS
+#COMMON_GLOBAL_CFLAGS += -DLGEJPN_UIDS
+#COMMON_GLOBAL_CFLAGS += -DLGEJPN_JB_SYMS
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
